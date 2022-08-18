@@ -102,7 +102,12 @@ border-radius: 100px ;
     content: 'login';
     left: 50%;
 }
-
+.toggle-btn:checked:after{
+    content: 'login';
+    position: absolute;
+padding: 11px;
+margin-left: 15px;
+}
 .toggle-btn:checked + .signup{
     /* left: -101%; */
     left: -122%;
